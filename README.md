@@ -30,4 +30,4 @@ GA4 · Looker Studio · SQL (BigQuery) · Python (pandas, scikit-learn) · PySpa
 Public or anonymised datasets only. Group academic projects are labelled as such, with my own role stated.
 
 ## Contact
-LinkedIn: www.linkedin.com/in/joaopedrodominguesin · Email: joao.pedrodomingues@hotmail.com
+LinkedIn: [joaopedrodominguesin](www.linkedin.com/in/joaopedrodominguesin · Email: joao.pedrodomingues@hotmail.com
