@@ -1,33 +1,39 @@
- Marketing Analytics Portfolio — João Domingues
+# 01 · GA4 measurement & funnel audit: Google Merchandise Store
 
-I turn marketing and customer data into decisions: measurement audits, customer segmentation, churn and response models, and voice-of-customer insight.
+**Status:** in progress. This page is updated as the audit moves forward.
 
-MSc in Data-Driven Marketing (NOVA IMS, Lisbon) · background in retail operations management, so I read data with the shop floor in mind: stock, staff, conversion and returns.
+## The question
 
----
+Can the Google Merchandise Store trust its analytics, and where does its purchase funnel lose the most money?
 
-## Case studies
+## Why it matters
 
-| # | Case study | Question it answers | Tools | Status |
-|---|---|---|---|---|
-| 01 | [GA4 Measurement & Funnel Audit — Google Merchandise Store](./01-ga4-audit) | Can this store trust its analytics, and where does the funnel lose money? | GA4, Explorations | 🟡 In progress |
-| 02 | SEO Growth Plan — seasonal, bilingual fashion DTC brand | Where can organic search grow revenue? | Screaming Frog, Search Console, keyword tools | ⚪ Planned |
-| 03 | Customer Segmentation — 20,000 grocery customers | Which customer groups exist, and what campaign fits each? | Python, scikit-learn, KNIME | ⚪ Planned |
-| 04 | Voice of Customer — reviews & social listening | What are customers really saying, and what should change? | Python, NLP, LLMs | ⚪ Planned |
-| 05 | Churn Prediction — 1M customers | Who is about to leave, and is it worth trying to keep them? | PySpark, scikit-learn, SHAP | ⚪ Planned |
+Every marketing decision (budget, campaigns, site changes) rests on tracking. If the data is wrong, every report built on it is wrong too. That's why the audit comes before the funnel analysis.
 
-Each case study folder has: the business problem, approach, key findings, recommendations, limitations, and the code or workbook to reproduce it.
+## Data
 
-## How I work
-1. **Audit first** — check the data can be trusted before analysing it.
-2. **Tie every metric to a decision** — See-Think-Do-Care, one objective per stage.
-3. **End with a "So what?"** — three actions, an owner, expected impact, and how to measure it.
+Google Analytics 4 demo account for the Google Merchandise Store, a real ecommerce site that Google opens to the public in read-only mode. No private data is used.
 
-## Tools
-GA4 · Looker Studio · SQL (BigQuery) · Python (pandas, scikit-learn) · PySpark · KNIME · Excel
+## Plan
 
-## Notes on data and attribution
-Public or anonymised datasets only. Group academic projects are labelled as such, with my own role stated.
+**Part 1: Measurement audit**
 
-## Contact
-LinkedIn: [joaopedrodominguesin](www.linkedin.com/in/joaopedrodominguesin · Email: joao.pedrodomingues@hotmail.com
+- [ ] Key ecommerce events present and firing: `view_item`, `add_to_cart`, `begin_checkout`, `add_payment_info`, `purchase`
+- [ ] Key events (conversions) set up and meaningful
+- [ ] Traffic sources: share of unassigned or direct traffic as a tracking health signal
+- [ ] Data settings: retention, internal traffic filters, cross domain setup
+- [ ] Scorecard: what can be trusted, what can't, and what to fix first
+
+**Part 2: Funnel analysis**
+
+- [ ] Funnel from product view to purchase, by device and by channel
+- [ ] The biggest drop off step, and its estimated revenue impact
+- [ ] Three recommendations, each with an owner, expected impact and how to measure it
+
+## Findings
+
+Coming soon.
+
+## Limitations
+
+The demo account has limited admin access, so some settings can only be checked from what the reports show.
