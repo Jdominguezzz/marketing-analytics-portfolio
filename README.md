@@ -1,39 +1,35 @@
-# 01 · GA4 measurement & funnel audit: Google Merchandise Store
+# Marketing Analytics Portfolio · João Domingues
 
-**Status:** in progress. This page is updated as the audit moves forward.
+I turn marketing and customer data into decisions: measurement audits, customer journeys, segmentation and customer insight.
 
-## The question
+MSc candidate in Data-Driven Marketing at NOVA IMS, Lisbon (expected 2027). I've worked in retail stores for five years, so I read data with the shop floor in mind: stock, staff, conversion and returns.
 
-Can the Google Merchandise Store trust its analytics, and where does its purchase funnel lose the most money?
+---
 
-## Why it matters
+## Case studies
 
-Every marketing decision (budget, campaigns, site changes) rests on tracking. If the data is wrong, every report built on it is wrong too. That's why the audit comes before the funnel analysis.
+| # | Case study | Question it answers | Tools | Status |
+|---|---|---|---|---|
+| 01 | [GA4 measurement & funnel audit: Google Merchandise Store](./01-ga4-audit) | Can this store trust its analytics, and where does the funnel lose money? | GA4, Explorations | In progress |
 
-## Data
+Every case study folder holds the business problem, approach, findings, recommendations, limitations, and the code or workbook to reproduce it.
 
-Google Analytics 4 demo account for the Google Merchandise Store, a real ecommerce site that Google opens to the public in read-only mode. No private data is used.
+**Next on the roadmap:** Lisbon data jobs 2026 (what analyst jobs actually ask for) · Customer journeys and conversion (MSc thesis) · Customer segmentation · Voice of customer analysis.
 
-## Plan
+## How I work
 
-**Part 1: Measurement audit**
+1. **Audit first:** check the data can be trusted before analysing it.
+2. **Tie every metric to a decision:** See, Think, Do, Care, with one objective per stage.
+3. **End with a "So what?":** three actions, each with an owner, expected impact and how to measure it.
 
-- [ ] Key ecommerce events present and firing: `view_item`, `add_to_cart`, `begin_checkout`, `add_payment_info`, `purchase`
-- [ ] Key events (conversions) set up and meaningful
-- [ ] Traffic sources: share of unassigned or direct traffic as a tracking health signal
-- [ ] Data settings: retention, internal traffic filters, cross domain setup
-- [ ] Scorecard: what can be trusted, what can't, and what to fix first
+## Tools
 
-**Part 2: Funnel analysis**
+GA4 · Looker Studio · Power BI · SQL (BigQuery) · Python (pandas, scikit-learn) · KNIME · Excel
 
-- [ ] Funnel from product view to purchase, by device and by channel
-- [ ] The biggest drop off step, and its estimated revenue impact
-- [ ] Three recommendations, each with an owner, expected impact and how to measure it
+## Data and attribution
 
-## Findings
+Public or anonymised datasets only. Group academic projects are labelled as such, with my own role stated.
 
-Coming soon.
+## Contact
 
-## Limitations
-
-The demo account has limited admin access, so some settings can only be checked from what the reports show.
+[LinkedIn](https://www.linkedin.com/in/joaopedrodomingues) · joao.pedrodomingues@hotmail.com
