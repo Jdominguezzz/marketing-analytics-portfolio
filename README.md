@@ -10,7 +10,7 @@ MSc in Data-Driven Marketing (NOVA IMS, Lisbon) · background in retail operatio
 
 | # | Case study | Question it answers | Tools | Status |
 |---|---|---|---|---|
-| 01 | [GA4 Measurement & Funnel Audit — Google Merchandise Store](./01-ga4-audit) | Can this store trust its analytics, and where does the funnel lose money? | GA4, Explorations, DevTools | 🟢 Draft ready |
+| 01 | [GA4 Measurement & Funnel Audit — Google Merchandise Store](./01-ga4-audit) | Can this store trust its analytics, and where does the funnel lose money? | GA4, Explorations, DevTools | ✅ Published |
 | 02 | SEO Growth Plan — seasonal, bilingual fashion DTC brand | Where can organic search grow revenue? | Screaming Frog, Search Console, keyword tools | ⚪ Planned |
 | 03 | Customer Segmentation — 20,000 grocery customers | Which customer groups exist, and what campaign fits each? | Python, scikit-learn, KNIME | ⚪ Planned |
 | 04 | Voice of Customer — reviews & social listening | What are customers really saying, and what should change? | Python, NLP, LLMs | ⚪ Planned |
