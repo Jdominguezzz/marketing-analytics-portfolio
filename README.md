@@ -1,8 +1,8 @@
-# Marketing Analytics Portfolio · João Domingues
+# Marketing Analytics Portfolio — João Domingues
 
-I turn marketing and customer data into decisions: measurement audits, customer journeys, segmentation and customer insight.
+I turn marketing and customer data into decisions: measurement audits, customer segmentation, churn and response models, and voice-of-customer insight.
 
-MSc candidate in Data-Driven Marketing at NOVA IMS, Lisbon (expected 2027). I've worked in retail stores for five years, so I read data with the shop floor in mind: stock, staff, conversion and returns.
+MSc in Data-Driven Marketing (NOVA IMS, Lisbon) · background in retail operations management, so I read data with the shop floor in mind: stock, staff, conversion and returns.
 
 ---
 
@@ -10,26 +10,24 @@ MSc candidate in Data-Driven Marketing at NOVA IMS, Lisbon (expected 2027). I've
 
 | # | Case study | Question it answers | Tools | Status |
 |---|---|---|---|---|
-| 01 | [GA4 measurement & funnel audit: Google Merchandise Store](./01-ga4-audit) | Can this store trust its analytics, and where does the funnel lose money? | GA4, Explorations | In progress |
+| 01 | [GA4 Measurement & Funnel Audit — Google Merchandise Store](./01-ga4-audit) | Can this store trust its analytics, and where does the funnel lose money? | GA4, Explorations, DevTools | 🟢 Draft ready |
+| 02 | SEO Growth Plan — seasonal, bilingual fashion DTC brand | Where can organic search grow revenue? | Screaming Frog, Search Console, keyword tools | ⚪ Planned |
+| 03 | Customer Segmentation — 20,000 grocery customers | Which customer groups exist, and what campaign fits each? | Python, scikit-learn, KNIME | ⚪ Planned |
+| 04 | Voice of Customer — reviews & social listening | What are customers really saying, and what should change? | Python, NLP, LLMs | ⚪ Planned |
+| 05 | Churn Prediction — 1M customers | Who is about to leave, and is it worth trying to keep them? | PySpark, scikit-learn, SHAP | ⚪ Planned |
 
-Every case study folder holds the business problem, approach, findings, recommendations, limitations, and the code or workbook to reproduce it.
-
-**Next on the roadmap:** Lisbon data jobs 2026 (what analyst jobs actually ask for) · Customer journeys and conversion (MSc thesis) · Customer segmentation · Voice of customer analysis.
+Each case study folder has: the business problem, approach, key findings, recommendations, limitations, and the code or workbook to reproduce it.
 
 ## How I work
-
-1. **Audit first:** check the data can be trusted before analysing it.
-2. **Tie every metric to a decision:** See, Think, Do, Care, with one objective per stage.
-3. **End with a "So what?":** three actions, each with an owner, expected impact and how to measure it.
+1. **Audit first** — check the data can be trusted before analysing it.
+2. **Tie every metric to a decision** — See-Think-Do-Care, one objective per stage.
+3. **End with a "So what?"** — three actions, an owner, expected impact, and how to measure it.
 
 ## Tools
+GA4 · Looker Studio · SQL (BigQuery) · Python (pandas, scikit-learn) · PySpark · KNIME · Excel
 
-GA4 · Looker Studio · Power BI · SQL (BigQuery) · Python (pandas, scikit-learn) · KNIME · Excel
-
-## Data and attribution
-
+## Notes on data and attribution
 Public or anonymised datasets only. Group academic projects are labelled as such, with my own role stated.
 
 ## Contact
-
-[LinkedIn](https://www.linkedin.com/in/joaopedrodomingues) · joao.pedrodomingues@hotmail.com
+LinkedIn: linkedin.com/in/joaopedrodominguesin · Email: joao.pedrodomingues@hotmail.com
